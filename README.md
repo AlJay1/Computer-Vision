@@ -10,7 +10,7 @@ The model was trained with the batch size, epochs, and learning rate at their de
 The images of each class were diversified with varying hand positions, and different positions on the camera in an effort to reduce the risk of overfitting.
 The model was downloaded with tensorflow and then added to the repository.
 
-The labels for each image class is saved in '''labels.txt '''
+The labels for each image class is saved in ``` labels.txt ```
 
 # Milestone 2 - Install the dependencies
 

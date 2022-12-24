@@ -35,9 +35,3 @@ There is a countdown of 5 seconds in the ```countdown``` function to allow the u
 If the camera cannot detect a valid choice, it asks the user to show his choice again.
 An easy and a hard mode is also implemented. Easy mode is where the computer randomly selects a choice.
 Hard mode is where the user chooses based on the likely user choice, and then returns a choice that is most likely to win.
-
-
-
-Milestone 4
-Combination of milestone 3 and 4. This allows the user to show their choice to the camera and it returns the winner.
-There is an easy and hard mode where the computer does not randomly choose, and predicts based on the user choice.

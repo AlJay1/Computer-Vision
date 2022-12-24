@@ -1,11 +1,18 @@
-# Computer-Vision
+# AiCore Computer Vision project
+
+The goal was to create a Rock Paper Scissors game where the user can interact with the webcam.
 
 
-Milestone 1
+# Milestone 1 - Create the computer vision system
 
-This github repo was created
+With Teachable-Machine, a series of images were taken for 4 different classes to create an image model (rock, paper, scissors and nothing).
+The model was trained with the batch size, epochs, and learning rate at their default values: 50, 16, and 0.001, respectively.
+The images of each class were diversified with varying hand positions, and different positions on the camera in an effort to reduce the risk of overfitting.
+The model was downloaded with tensorflow and then added to the repository.
 
-Milestone 2
+The labels for each image class is saved in '''labels.txt '''
+
+# Milestone 2 - Install the dependencies
 
 Images were taken of the rock, paper, scissors, and nothing options in teachable machine. 
 And the model was downloaded.

@@ -90,7 +90,6 @@ class RPS:
         elif user_choice == "Rock":
             if computer_choice == "Paper":
                 self.comp_wins += 1
-   
             else:
                 self.user_wins += 1 
         
@@ -108,7 +107,7 @@ class RPS:
             elif computer_choice == "Rock":
                 self.comp_wins += 1
 
-        print (f"The score is {self.comp_wins} - {self.user_wins}")
+        print (f"The score is computer {self.comp_wins} - {self.user_wins} user")
 
 
     def replay(self):
